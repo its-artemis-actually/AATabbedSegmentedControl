@@ -7,7 +7,8 @@ Colors are customizable through Interface Builder or code.
 
 Example usage:
 
-```import UIKit
+```Swift
+import UIKit
 
 class ViewController: UIViewController {
 
