@@ -17,6 +17,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         customSegmentedControl.items = ["ITEM 1", "ITEM 2", "ITEM 3"]
         customSegmentedControl.font = UIFont.boldSystemFont(ofSize: 15)
+        
+        // Optional - code or Storyboard
+        customSegmentedControl.selectedTextColor = UIColor.white
+        customSegmentedControl.unselectedTextColor = UIColor.white
+        customSegmentedControl.selectionIndicatorColor = UIColor.cyan
+        customSegmentedControl.backgroundColor = UIColor.darkGray
+        
         customSegmentedControl.onItemSelected = { (selectedIndex) in
             self.label.text = "Item \(selectedIndex + 1) selected."
         }
