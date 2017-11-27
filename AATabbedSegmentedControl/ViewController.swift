@@ -10,16 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customSegmentedControl: AATabbedSegmentedControl!
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        customSegmentedControl.items = ["ITEM 1", "ITEM 2", "ITEM 3"]
+        customSegmentedControl.font = UIFont.boldSystemFont(ofSize: 15)
+        customSegmentedControl.onItemSelected = { (selectedIndex) in
+            self.label.text = "Item \(selectedIndex + 1) selected."
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
