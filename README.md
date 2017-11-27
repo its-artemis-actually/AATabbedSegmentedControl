@@ -3,7 +3,7 @@ Swift animated custom segmented control.
 
 ![Demo](https://github.com/its-artemis-actually/AATabbedSegmentedControl/blob/master/demo.gif)
 
-##Simply drag and drop the AATabbedSegmentedControl.swift file into your project!
+## Simply drag and drop the AATabbedSegmentedControl.swift file into your project!
 
 Colors are customizable through Interface Builder or code.
 
