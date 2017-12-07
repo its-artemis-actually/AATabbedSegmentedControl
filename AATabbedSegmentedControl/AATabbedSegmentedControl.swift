@@ -43,7 +43,7 @@ class AATabbedSegmentedControl: UIControl {
     }
     
     @IBInspectable var selectionIndicatorColor: UIColor = UIColor.white {
-        didSet(newValue) {
+        didSet(oldValue) {
             setColors()
         }
     }
@@ -135,6 +135,7 @@ class AATabbedSegmentedControl: UIControl {
     private func updateSelectedIndex() {
         indicatorCenterXConstraint?.isActive = false
         indicatorCenterXConstraint = barView.centerXAnchor.constraint(equalTo: buttons[selectedIndex].centerXAnchor)
+        setColors()
         UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.85, options: .curveEaseInOut, animations: {
             self.indicatorCenterXConstraint?.isActive = true
             self.layoutIfNeeded()
