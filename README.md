@@ -3,6 +3,8 @@ Swift animated custom segmented control.
 
 ![Demo](https://github.com/its-artemis-actually/AATabbedSegmentedControl/blob/master/demo.gif)
 
+**OR:** See AATabbedSegmentedControl live in the [Quorus iOS app](https://itunes.apple.com/us/app/quorus/id1247768635?mt=8)!
+
 ## Simply drag and drop the AATabbedSegmentedControl.swift file into your project!
 
 Colors are customizable through Interface Builder or code.
