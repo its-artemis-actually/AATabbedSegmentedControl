@@ -3,7 +3,9 @@ Swift animated custom segmented control.
 
 ![Demo](https://github.com/its-artemis-actually/AATabbedSegmentedControl/blob/master/demo.gif)
 
-**OR:** See AATabbedSegmentedControl live in the [Quorus iOS app](https://itunes.apple.com/us/app/quorus/id1247768635?mt=8)!
+**OR:** See AATabbedSegmentedControl live in the [Quorus iOS app](https://itunes.apple.com/us/app/quorus/id1247768635?mt=8) and the [Goalie iOS app](https://itunes.apple.com/us/app/goalie-social-goal-tracker/id1423881578?mt=8)!
+
+If you're using AATabbedSegmentedControl, let us know and we can add your app to the list!
 
 ## Simply drag and drop the AATabbedSegmentedControl.swift file into your project!
 
